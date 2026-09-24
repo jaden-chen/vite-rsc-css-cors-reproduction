@@ -1,0 +1,24 @@
+{
+  "name": "rsc-css-reproduction",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node reproduce.mjs",
+    "test:fixed": "node reproduce.mjs --fixed",
+    "start": "node reproduce.mjs --serve",
+    "start:fixed": "node reproduce.mjs --serve --fixed"
+  },
+  "dependencies": {
+    "vinext": "1.0.0-beta.9",
+    "vite": "8.3.0",
+    "@vitejs/plugin-rsc": "0.5.34",
+    "@vitejs/plugin-react": "6.0.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-server-dom-webpack": "19.3.0",
+    "@playwright/test": "1.63.0"
+  },
+  "engines": {
+    "node": ">=26"
+  }
+}
