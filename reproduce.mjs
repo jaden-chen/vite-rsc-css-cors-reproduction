@@ -92,7 +92,7 @@ try {
   assert.ok(ready, "Application must start");
   if (serve) {
     console.log(
-      `Open ${origin} in a fresh browser context. Follow Second page, then Show card.`,
+      `Open ${origin} in a fresh browser context. Follow Second page (new tab) or Third page (same tab), then Show card.`,
     );
     await new Promise((resolve) => {
       process.once("SIGINT", resolve);
